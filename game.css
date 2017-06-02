@@ -1,0 +1,140 @@
+px;html,
+body
+{
+  padding: 0;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+#ash{
+	text-align:center;
+	top:0px;
+	background-color:#930;
+	z-index:5000;
+	position:fixed;
+	padding:0px;
+	margin:0px;
+	color:black;
+	border-radius:0 0 90px 90px;
+	transform:translateX(-10px);
+	width:100%;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size:1em;
+}
+
+.cloud
+{
+  background-image: url("cloud.png");
+}
+body
+{
+ 
+  background-color: rgb(193, 193, 193);
+}
+
+
+.scroll
+{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+
+.horizon
+{
+  z-index: 1;
+  width: 3000px;
+  background-color: #33ccff;
+}
+
+.page{
+    top: 175px;
+    left:500px;
+	background:rgb(241, 103, 20);
+	text-align:center;
+    border:  #eee solid;
+    margin-right:150px;
+    position: absolute;
+    min-width: 300px;
+    display: inline;
+	border-radius:45px;
+
+}
+.page2{
+    top: 175px;
+    left: 1200px;
+    background: rgb(241, 103, 20);
+	text-align:center;
+    border:  #eee solid;
+    position: absolute;
+    min-width: 300px;
+    display: inline;
+	border-radius:45px;
+
+}
+.page3{
+    top: 175px;
+    left: 1800px;
+    background: rgb(241, 103, 20);
+	text-align:center;
+    border:  #eee solid;
+    position: absolute;
+    min-width: 300px;
+    display: inline;
+	border-radius:45px;
+
+}
+.page4{
+    top: 175px;
+    left: 2650px;
+    background: rgb(241, 103, 20);
+	text-align:center;
+    border:  #eee solid;
+    position: absolute;
+    min-width: 300px;
+    display: inline;
+	border-radius:45px;
+}
+.page5{
+    top: 175px;
+    left:3300px;
+    background:rgb(241, 103, 20);
+	text-align:center;
+    border:  #eee solid;
+    margin-right:150px;
+    position: absolute;
+    min-width: 300px;
+	border-radius:45px;
+
+}
+
+
+
+.middle
+{
+  z-index: 500;
+  width: 4000px;
+  height: 600px;
+  		  transform:translate(-240px);
+
+}
+.middle > img
+{
+
+}
+
+.front
+{
+  height: 80px;
+  z-index: 1000;
+  width: 6000px;
+  background:url(..//image_sport/ground.png);
+
+}
+
+
+#canvasDiv{
+  bottom: 70px;
+  left:4%;
+  position:fixed;
+}
